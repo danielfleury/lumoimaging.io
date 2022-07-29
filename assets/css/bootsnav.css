@@ -70,6 +70,7 @@ nav.navbar.bootsnav.nav-box .navbar-brand {
   margin-bottom: 20px;
   border: 1px solid transparent;
   padding: 0;
+   
 }
 
 .navbar-nav .dropdown-menu {
@@ -85,7 +86,7 @@ nav.navbar.bootsnav.nav-box .navbar-brand {
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: black;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #ccc;
@@ -131,16 +132,16 @@ nav.navbar.bootsnav.nav-box .navbar-brand {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #000000;
 }
 
 .nav > li.disabled > a {
-  color: #777;
+  color: #b5b5b5;
 }
 
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #777;
+  color: #b5b5b5;
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
@@ -149,7 +150,7 @@ nav.navbar.bootsnav.nav-box .navbar-brand {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eee;
+  background-color: #000000;
   border-color: #337ab7;
 }
 
@@ -205,7 +206,7 @@ nav.navbar.bootsnav.nav-box .navbar-brand {
   height: 50px;
   width: 50px;
   background: #4ac4f3;
-  color: #ffffff;
+  color: #000000;
   border-radius: 50%;
 }
 
@@ -361,7 +362,7 @@ header nav.navbar.border.bootsnav.navbar-fixed.no-background .attr-nav ul li a {
 }
 
 header nav.navbar.border.bootsnav.navbar-fixed.no-background ul li a::after {
-  background: #ffffff none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
   bottom: -2px;
   content: "";
   height: 3px;
@@ -413,7 +414,7 @@ nav.bootsnav.navbar-default.info-topbar.active-full ul li a {
 .attr-nav > a.btn-theme.effect:focus {
   background: #4ac4f3 none repeat scroll 0 0;
   border: 2px solid #4ac4f3;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
@@ -603,7 +604,7 @@ nav.navbar.bootsnav.navbar-default.navbar-fixed.inc-topbar {
 nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown ul.dropdown-menu li a, 
 nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown a, 
 nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown h6 {
-  color: #cccccc;
+  color: #000000;
 }
 
 .attr-nav ul.cart-list li.total a {
@@ -611,16 +612,16 @@ nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown h6 {
   display: inline-block;
   font-weight: 600 !important;
   padding: 12px 15px;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .attr-nav ul.cart-list li.total a:hover {
   background: #4ac4f3 none repeat scroll 0 0 !important;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 nav.navbar.bootsnav {
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 0;
   border: none;
   box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.04);
@@ -645,7 +646,7 @@ nav.navbar.bootsnav ul.nav > li > a {
 }
 
 nav.navbar.bootsnav.bg-dark ul.nav > li > a {
-  color: #ffffff;
+  color: #000000;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover, 
@@ -739,7 +740,7 @@ nav.bootsnav.navbar-full .navbar-collapse .nav-full {
 nav.bootsnav.navbar-full .navbar-collapse .wrap-full-menu {
   display: table-cell;
   vertical-align: middle;
-  background-color: #fff;
+  background-color: #000000;
   overflow: auto;
 }
 
@@ -792,7 +793,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a .badge {
   font-weight: 600;
   margin-left: 4px;
   background: #4ac4f3;
-  color: #ffffff;
+  color: #000000;
   border-radius: 5px;
 }
 
@@ -906,7 +907,7 @@ nav.navbar.attr-border .attr-nav::before {
 
 .attr-nav > ul > li > a span.badge {
   background-color: #4ac4f3;
-  color: #ffffff;
+  color: #000000;
   height: 20px;
   line-height: 20px;
   margin-top: -5px;
@@ -1026,7 +1027,7 @@ ul.cart-list > li.total > span {
 }
 
 .top-search {
-  background-color: #ffffff;
+  background-color: #000000;
   border: medium none;
   border-radius: 30px;
   box-shadow: 0 10px 40px -15px rgba(0, 0, 0, 0.5);
@@ -1089,7 +1090,7 @@ body {
   padding: 50px;
   height: 100%;
   display: block;
-  background-color: #ffffff;
+  background-color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1176,7 +1177,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .navbar .side .widget.social li a {
-  color: #ffffff;
+  color: #000000;
   display: inline-block;
   font-weight: 600;
   height: 40px;
@@ -1192,7 +1193,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 
 .navbar .side .widget.social li a:hover {
   background: #4ac4f3 none repeat scroll 0 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .navbar.color-yellow .side .widget.social li a:hover {
@@ -1335,7 +1336,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 
 .side .widget ul.link li a:focus, 
 .side .widget ul.link li a:hover {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -1367,7 +1368,7 @@ nav.navbar.bootsnav .share ul > li > a {
 
 nav.navbar.bootsnav .share.dark ul > li > a {
   background-color: #4ac4f3;
-  color: #ffffff;
+  color: #000000;
 }
 
 nav.navbar.bootsnav.color-yellow .share.dark ul > li > a {
@@ -1395,7 +1396,7 @@ nav.navbar.bootsnav.navbar-fixed {
 }
 
 nav.navbar.bootsnav.navbar-fixed.nav-box.no-background {
-  background: #ffffff none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
   top: 50px;
   width: auto;
   left: 0;
@@ -1486,20 +1487,20 @@ nav.navbar.bootsnav {
   }
 
   .navbar.no-background .attr-nav.extra-color > ul > li > a {
-    color: #ffffff;
+    color: #000000;
   }
 
   .attr-nav.extra-color > ul > li.side-menu > a {
     display: inline-block;
     padding: 0 !important;
-    background: #ffffff;
+    background: #000000;
     color: #4ac4f3 !important;
     border-radius: 50%;
     height: 50px;
     width: 50px;
     text-align: center;
     line-height: 50px;
-    box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #000000;
   }
 
   .cornflower-blue .attr-nav.extra-color > ul > li.side-menu > a {
@@ -1527,13 +1528,13 @@ nav.navbar.bootsnav {
     display: inline-block;
     padding: 0 !important;
     background: #1baaa0;
-    color: #ffffff !important;
+    color: #000000 !important;
     border-radius: 50%;
     height: 50px;
     width: 50px;
     text-align: center;
     line-height: 50px;
-    box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #000000;
   }
 
   .eastern-blue .attr-nav.extra-color > ul > li > a {
@@ -1542,7 +1543,7 @@ nav.navbar.bootsnav {
 
 /* Custom */
   nav.navbar.navbar-default.bootsnav.navbar-fixed-light.no-background {
-    background: #ffffff;
+    background: #000000;
     box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.04);
   }
 
@@ -1673,7 +1674,7 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav.active-full ul.nav > li > a.active,
     nav.navbar.bootsnav.active-full ul.nav > li > a:hover {
     background: #4ac4f3 none repeat scroll 0 0 !important;
-    color: #ffffff;
+    color: #000000;
   }
 
   nav.navbar.bootsnav.active-full.color-yellow ul.nav > li > a.active,
@@ -1682,7 +1683,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.active-full ul.nav > li.active > a:hover {
-    color: #ffffff;
+    color: #000000;
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
@@ -1714,8 +1715,8 @@ nav.navbar.bootsnav {
   }
 
   .social-links.sl-default a {
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
     display: inline-block;
     float: left;
     height: 30px;
@@ -1727,7 +1728,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
-    background: #fff none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     border: 1px solid transparent;
     border-radius: 2px;
     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.15);
@@ -1924,12 +1925,12 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, 
   nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, 
   nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #fff;
+    color: #000000;
   }
 
   nav.navbar.bootsnav.navbar-transparent.dark .attr-nav > ul > li > a, 
   nav.navbar.bootsnav.navbar-transparent.dark ul.nav > li > a {
-    color: #eee;
+    color: #000000;
   }
 
   nav.navbar.bootsnav.navbar-fixed.navbar-transparent .logo-scrolled, 
@@ -1975,7 +1976,7 @@ nav.navbar.bootsnav {
   }
 
   .eastern-blue .attr-nav.attr-bg a {
-    color: #ffffff;
+    color: #000000;
   }
 
   nav.navbar.bootsnav.menu-center .container {
@@ -2109,15 +2110,15 @@ nav.navbar.bootsnav {
     overflow: hidden;
     left: 0;
     padding: 0 0 0 0 !important;
-    background: #fff;
-    -moz-box-shadow: 1px 0px 1px 0px #eee;
-    -webkit-box-shadow: 1px 0px 1px 0px #eee;
-    -o-box-shadow: 1px 0px 1px 0px #eee;
-    box-shadow: 1px 0px 1px 0px #eee;
+    background: #000000;
+    -moz-box-shadow: 1px 0px 1px 0px #000000;
+    -webkit-box-shadow: 1px 0px 1px 0px #000000;
+    -o-box-shadow: 1px 0px 1px 0px #000000;
+    box-shadow: 1px 0px 1px 0px #000000;
   }
 
   nav.bootsnav.navbar-sidebar.bg-dark {
-    background: #fff none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     -moz-box-shadow: 1px 0 6px 0 #040914;
     -webkit-box-shadow: 1px 0 6px 0 #040914;
     -o-box-shadow: 1px 0 6px 0 #040914;
@@ -2170,7 +2171,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bootsnav.navbar-sidebar ul.nav > li {
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #000000;
   }
 
   nav.bootsnav.navbar-sidebar.bg-dark ul.nav > li {
@@ -2182,7 +2183,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bootsnav.navbar-sidebar.bg-dark ul.nav > li > a {
-    color: #ffffff;
+    color: #000000;
   }
 
   nav.bootsnav.navbar-sidebar ul.nav > li > a:hover {
@@ -2363,7 +2364,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.navbar-transparent.pad-top {
-    background: #ffffff none repeat scroll 0 0 !important;
+    background: #000000 none repeat scroll 0 0 !important;
     border-bottom: none !important;
     margin-top: 0 !important;
   }
@@ -2469,7 +2470,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.shadow.navbar-inverse.bootsnav.navbar-transparent.dark, 
   nav.navbar.shadow.bootsnav.navbar-transparent.dark {
-    background-color: #ffffff !important;
+    background-color: #000000 !important;
     border-bottom: medium none navy;
   }
 
@@ -2482,7 +2483,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.no-background.wt-bar {
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 0;
     position: relative;
     top: 0 !important;
@@ -2498,7 +2499,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bg-dark.navbar.bootsnav .navbar-toggle {
-    color: #ffffff;
+    color: #000000;
   }
 
   nav.bg-dark.navbar.bootsnav ul.nav > li > a {
@@ -2536,7 +2537,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav .navbar-collapse.collapse.in,
   nav.navbar.bootsnav .navbar-collapse.collapse.show {
-    background: #ffffff none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     display: block;
     margin-bottom: 30px;
   }
@@ -2845,7 +2846,7 @@ nav.navbar.bootsnav {
     overflow-y: auto !important;
     overflow-x: hidden !important;
     display: block;
-    background: #fff;
+    background: #000000;
     z-index: 99;
     width: 280px;
     height: 100% !important;
@@ -2986,7 +2987,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.navbar-mobile ul.nav {
-    border-top: solid 1px #fff;
+    border-top: solid 1px #000000;
   }
 
   li.close-full-menu {
@@ -3022,7 +3023,7 @@ nav .attr-nav > ul > li.contact {
 }
 
 nav.navbar-transparent .attr-nav > ul > li.contact {
-  color: #ffffff;
+  color: #000000;
   margin-left: 0;
 }
 
@@ -3036,7 +3037,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact {
 }
 
 nav.navbar-transparent .attr-nav > ul > li.contact i {
-  color: #ffffff;
+  color: #000000;
 }
 
 .attr-nav > ul > li > a {
@@ -3056,7 +3057,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact i {
 
 .attr-nav > ul > li.button > a {
     background: #4ac4f3;
-    color: #ffffff;
+    color: #000000;
     display: inline-block;
     padding: 12px 30px !important;
     border-radius: 30px;
@@ -3066,7 +3067,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact i {
 }
 
 .attr-nav.light > ul > li.button > a {
-  background: #ffffff;
+  background: #000000;
   color: #232323 !important;
   box-shadow: 0 0 10px #e7e7e7;
   font-weight: 700;
@@ -3089,7 +3090,7 @@ nav.navbar-transparent .attr-nav > ul > li.contact i {
 .attr-nav.menu li:last-child a {
   background: #4ac4f3 none repeat scroll 0 0;
   border-radius: 30px;
-  color: #ffffff !important;
+  color: #000000 !important;
   padding: 5px 20px !important;
 }
 
@@ -3108,7 +3109,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked .attr-nav ul li a {
 }
 
 nav.navbar.bootsnav.bg-dark .attr-nav > ul > li > a {
-  color: #ffffff;
+  color: #000000;
 }
 
 ul.cart-list > li.total > .btn {
@@ -3188,12 +3189,12 @@ ul.cart-list > li.total > .btn {
   nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, 
   nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, 
   nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #fff;
+    color: #000000;
   }
 
   nav.navbar.bootsnav.navbar-transparent.dark .attr-nav > ul > li > a, 
   nav.navbar.bootsnav.navbar-transparent.dark ul.nav > li > a {
-    color: #eee;
+    color: #000000;
   }
 }
 
@@ -3252,12 +3253,12 @@ nav.navbar.navbar-inverse ul.cart-list > li.total > .btn {
 }
 
 nav.navbar.navbar-inverse ul.cart-list > li.total .pull-right {
-  color: #fff;
+  color: #000000;
 }
 
 nav.navbar.navbar-inverse.megamenu ul.dropdown-menu.megamenu-content .content ul.menu-col li a, 
 nav.navbar.navbar-inverse ul.nav > li > a {
-  color: #eee;
+  color: #000000;
 }
 
 nav.navbar.navbar-inverse ul.nav > li.dropdown > a {
@@ -3274,17 +3275,17 @@ nav.navbar.navbar-inverse ul.nav .dropdown-menu h3,
 nav.navbar.navbar-inverse ul.nav .dropdown-menu h4, 
 nav.navbar.navbar-inverse ul.nav .dropdown-menu h5, 
 nav.navbar.navbar-inverse ul.nav .dropdown-menu h6 {
-  color: #fff;
+  color: #000000;
 }
 
 nav.navbar.navbar-inverse .form-control {
   background-color: #333;
   border-color: #303030;
-  color: #fff;
+  color: #000000;
 }
 
 nav.navbar.navbar-inverse .attr-nav > ul > li > a {
-  color: #eee;
+  color: #000000;
 }
 
 nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu {
@@ -3296,7 +3297,7 @@ nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu {
 
 nav.navbar.navbar-inverse ul.cart-list > li {
   border-bottom: solid 1px #303030;
-  color: #eee;
+  color: #000000;
 }
 
 nav.navbar.navbar-inverse ul.cart-list > li img {
@@ -3372,7 +3373,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
   nav.navbar.navbar-inverse.navbar-transparent.dark .attr-nav > ul > li > a, 
   nav.navbar.navbar-inverse.navbar-transparent.dark ul.nav > li > a, 
   nav.navbar.navbar-inverse.no-background.white ul.nav > li > a {
-    color: #fff;
+    color: #000000;
   }
 
   nav.navbar.navbar-inverse.no-background.dark .attr-nav > ul > li > a, 
@@ -3385,7 +3386,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 
 @media (max-width: 992px) {
   nav.navbar.navbar-inverse .navbar-toggle {
-    color: #eee;
+    color: #000000;
     background-color: #222 !important;
   }
 
@@ -3401,7 +3402,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 
   nav.navbar.navbar-inverse .dropdown .megamenu-content .col-menu .title {
     border-bottom: solid 1px #303030;
-    color: #eee;
+    color: #000000;
   }
 
   nav.navbar.navbar-inverse .dropdown .megamenu-content .col-menu ul > li > a {
@@ -3430,7 +3431,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 
 @media (min-width: 1024px) {
   .bootsnav.navbar-full.no-background .navbar-toggle {
-    color: #fff;
+    color: #000000;
   }
 }
 
@@ -3500,7 +3501,7 @@ body.wrap-nav-sidebar {
   font-size: 13px;
   letter-spacing: 0.06em;
   color: #232323;
-  box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #000000;
   border-radius: 30px;
 }
 
